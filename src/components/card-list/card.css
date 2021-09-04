@@ -1,4 +1,6 @@
-
+.mycard{
+    padding: 20px;
+}
 
 .mycard :hover{
     transform: scale(1.05);

@@ -8,8 +8,8 @@ function Cardlist(props) {
         <div className="container-fluid">
             <div className="row">
                 {props.monsters.map(item =>
-                    <div className="col-sm-3 mycard">
-                        <Cards key={item.id} monster={item} />
+                    <div className="col-sm-3 mycard" key={item.id}>
+                        <Cards monster={item} />
                     </div>
                 )}
             </div>
